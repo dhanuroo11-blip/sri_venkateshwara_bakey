@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <meta
+        name="description"
+        content="Explore Sri Venkateswara Iyengar Bakery & Sweets."
+    >
+
+    <title>
+        Explore | Sri Venkateswara Iyengar Bakery & Sweets
+    </title>
+
+    <link
+        rel="icon"
+        type="image/svg+xml"
+        href="favicon.svg"
+    >
+
+    <link
+        rel="stylesheet"
+        href="style.css"
+    >
+
+</head>
+
+
+<body class="category-page">
+
+
+<!-- ================= HEADER ================= -->
+
+<header class="site-header">
+
+    <div class="container nav-container">
+
+        <a
+            href="index.html"
+            class="brand"
+        >
+
+            <span class="brand-symbol">
+                SV
+            </span>
+
+            <span class="brand-text">
+
+                <strong>
+                    SRI VENKATESWARA
+                </strong>
+
+                <small>
+                    IYENGAR BAKERY & SWEETS
+                </small>
+
+            </span>
+
+        </a>
+
+
+        <nav class="desktop-nav">
+
+    <a href="index.html#home"
+       data-en="Home"
+       data-ta="முகப்பு">
+        Home
+    </a>
+
+    <a href="index.html#about"
+       data-en="About"
+       data-ta="எங்களைப் பற்றி">
+        About
+    </a>
+
+    <a href="index.html#categories"
+       data-en="Products"
+       data-ta="பொருட்கள்">
+        Products
+    </a>
+
+    <a href="index.html#cakes"
+       data-en="Cakes"
+       data-ta="கேக்குகள்">
+        Cakes
+    </a>
+
+    <a href="index.html#gallery"
+       data-en="Gallery"
+       data-ta="புகைப்படங்கள்">
+        Gallery
+    </a>
+
+    <a href="index.html#contact"
+       data-en="Contact"
+       data-ta="தொடர்பு">
+        Contact
+    </a>
+
+</nav>
+
+       <div class="language-switcher">
+    <button id="englishBtn" class="language-btn active">English</button>
+    <span>|</span>
+    <button id="tamilBtn" class="language-btn">தமிழ்</button>
+</div>
+
+        <button
+            class="menu-button"
+            aria-label="Open navigation"
+            aria-expanded="false"
+        >
+            ☰
+        </button>
+
+    </div>
+
+
+   <nav class="mobile-nav">
+
+    <a href="index.html#home"
+       data-en="Home"
+       data-ta="முகப்பு">
+        Home
+    </a>
+
+    <a href="index.html#about"
+       data-en="About"
+       data-ta="எங்களைப் பற்றி">
+        About
+    </a>
+
+    <a href="index.html#categories"
+       data-en="Products"
+       data-ta="பொருட்கள்">
+        Products
+    </a>
+
+    <a href="index.html#cakes"
+       data-en="Cakes"
+       data-ta="கேக்குகள்">
+        Cakes
+    </a>
+
+    <a href="index.html#gallery"
+       data-en="Gallery"
+       data-ta="புகைப்படங்கள்">
+        Gallery
+    </a>
+
+    <a href="index.html#contact"
+       data-en="Contact"
+       data-ta="தொடர்பு">
+        Contact
+    </a>
+
+</nav>
+
+</header>
+
+
+<main>
+
+
+<!-- ================= CATEGORY HERO ================= -->
+
+<section class="category-hero">
+
+    <div class="category-hero-photo">
+        <img
+            id="category-hero-image"
+            src="images/products/gulabjamun.png"
+            alt="Sweets"
+        >
+    </div>
+
+    <div class="category-hero-overlay"></div>
+
+    <div class="container category-hero-content">
+<a
+    href="index.html#categories"
+    class="back-link"
+    data-en="← Back to categories"
+    data-ta="← வகைகளுக்குத் திரும்ப"
+>
+    ← Back to categories
+</a>
+
+<p
+    class="eyebrow"
+    data-en="EXPLORE OUR RANGE"
+    data-ta="எங்கள் வகைகள்"
+>
+    EXPLORE OUR RANGE
+</p>
+
+        <h1 id="category-title">
+            Sweets
+        </h1>
+
+        <p id="category-description">
+            Traditional sweets and familiar favourites made for every occasion.
+        </p>
+
+        <div class="category-hero-features">
+            <span><b>✦</b> Traditional favourites</span>
+            <span><b>✦</b> Wide variety</span>
+            <span><b>✦</b> Ask for availability</span>
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= PRODUCT LIST ================= -->
+
+<section class="section listing-section">
+
+    <div class="container">
+
+
+        <div class="listing-header">
+
+            <div>
+
+                <p
+    class="eyebrow"
+    data-en="AVAILABLE ITEMS"
+    data-ta="கிடைக்கும் பொருட்கள்"
+>
+    AVAILABLE ITEMS
+</p>
+
+                <h2 id="listing-heading">
+                    Our sweets
+                </h2>
+
+            </div>
+
+<a
+    id="category-whatsapp"
+    href="https://wa.me/919659487423"
+    target="_blank"
+    rel="noopener"
+    class="button button-primary"
+    data-en="Ask About Availability"
+    data-ta="கிடைப்பது பற்றி கேளுங்கள்"
+>
+    Ask About Availability
+</a>
+        </div>
+
+
+        <!--
+            JavaScript creates the clean
+            product-name list here.
+        -->
+
+        <div
+            id="product-list"
+            class="listing-grid"
+        ></div>
+
+        <div class="listing-note">
+            <span>✦</span> Product availability may vary. Please contact the bakery for current options.
+        </div>
+
+
+    </div>
+
+</section>
+
+
+<!-- ================= BOTTOM CTA ================= -->
+
+<section class="section mini-cta">
+
+    <div class="container mini-cta-inner">
+
+        <div>
+
+          <p
+    class="eyebrow"
+    data-en="NEED SOMETHING?"
+    data-ta="ஏதாவது தேவையா?"
+>
+    NEED SOMETHING?
+</p>
+
+<h2
+    data-en="Ask us directly."
+    data-ta="எங்களிடம் நேரடியாகக் கேளுங்கள்."
+>
+    Ask us directly.
+</h2>
+
+<p
+    data-en="Availability can vary. Contact the bakery for current options."
+    data-ta="பொருட்களின் கிடைக்கும் தன்மை மாறுபடலாம். தற்போதைய விருப்பங்களுக்கு பேக்கரியைத் தொடர்புகொள்ளுங்கள்."
+>
+    Availability can vary. Contact the bakery for current options.
+</p>
+
+
+        <a
+    href="https://wa.me/919659487423"
+    target="_blank"
+    rel="noopener"
+    class="button button-primary"
+    data-en="WhatsApp Us"
+    data-ta="WhatsApp மூலம் தொடர்புகொள்ளுங்கள்"
+>
+    WhatsApp Us
+</a>
+
+    </div>
+
+</section>
+
+
+</main>
+
+
+<!-- ================= FOOTER ================= -->
+
+<footer class="footer">
+
+    <div class="container footer-bottom">
+
+        <span>
+
+            ©
+            <span id="year"></span>
+
+            Sri Venkateswara Iyengar Bakery & Sweets
+
+        </span>
+
+
+       <a
+    href="index.html"
+    data-en="Back to Home"
+    data-ta="முகப்புக்குத் திரும்ப"
+>
+    Back to Home
+</a>
+    </div>
+
+</footer>
+
+
+<button
+    class="back-top"
+    aria-label="Back to top"
+>
+    ↑
+</button>
+<script>
+    // Get the language selected on the previous page
+    const savedLanguage = localStorage.getItem("siteLanguage") || "en";
+
+    // Apply it before the main script runs
+    document.documentElement.lang = savedLanguage;
+</script>
+
+
+
+<script src="script.js"></script>
+
+
+</body>
+</html>
